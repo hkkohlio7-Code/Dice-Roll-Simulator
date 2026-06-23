@@ -4,13 +4,9 @@ An interactive Dice Roll Simulator built with **HTML, CSS, and JavaScript** that
 
 ## 🚀 Live Demo
 
-Add your GitHub Pages link here:
-
-https://your-live-demo-link
+https://hkkohlio7-code.github.io/Dice-Roll-Simulator/
 
 ## 📸 Preview
-
-Add a screenshot of the project here.
 
 ![Project Screenshot](screenshot.png)
 
@@ -115,13 +111,6 @@ cd Dice-Roll-Simulator
 Open `index.html` in your browser.
 
 ---
-
-## 📸 Preview
-
-![Dice Roll Simulator](screenshot.png)
-
-## Live Demo
-
 
 ## 👨‍💻 Author
 
