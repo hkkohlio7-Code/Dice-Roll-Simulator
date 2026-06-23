@@ -91,6 +91,11 @@ button:hover{
     width: 2rem;
 }
 
+#clearAll{
+    display: none;
+    background-color: orangered;
+}
+
 @media(max-width:600px) and (min-width: 300px){
     .app{
         width: 100%;

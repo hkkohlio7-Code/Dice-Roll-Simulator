@@ -2,6 +2,7 @@ const rollBtn = document.getElementById("rollBtn");
 const history = document.querySelector(".history");
 const dice = document.querySelector(".dice");
 const defaultImg = document.getElementById("default-img");
+const clearBtn = document.getElementById("clearAll");
 
 const img = document.createElement("img");
 dice.appendChild(img);
@@ -26,9 +27,16 @@ function roll (){
     `;
     history.appendChild(div);
     img.classList.remove("roll-animation");
+    clearBtn.style.display = "inline-block";
 }, 1000);
 }
 
 rollBtn.addEventListener("click", ()=>{
     roll();
 })
+
+clearBtn.addEventListener("click", () => {
+    history.innerHTML = "";
+    count = 0;
+    clearBtn.style.display = "none";
+});
